@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.divPaiSongs {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 150px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.musicFavorites {
+  align-items: center;
+  background: linear-gradient(123.66deg, #003be5 12.08%, #00d5e2 86.52%);
+  background-image: url(../img/BG\ AZUL\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  justify-content: center;
+  margin-left: 360px;
+  margin-bottom: 50px;
+}
+
+.imageAlbum {
+  box-shadow: -3px 3px 10px rgb(47, 45, 45);
+  margin-top: 300px;
+  border-radius: 8px;
+  margin-left: -650px;
+  width: 250px;
+}
+
+.nameAndAlbum {
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+.nameArtist {
+  margin-top: 10px;
+  font-size: large;
+}
+
+.audioTrack {
+  width: 371.3px;
+  height: 60.95px;
+  background: #FFFFFF;
+  border-radius: 42.3864px;
+}
+
+.nameTrack {
+  display: flex;
+  width: 120px;
+  margin: 25px;
+  text-align: left;
+}
+
+.checkbox {
+  margin: 25px;
+}
+
+#checkbox {
+  all: unset;
+  background-image: url('../img/Vector\ \(1\).svg');
+  width: 22px;
+  height: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+#checkbox:checked {
+  background-image: url('../img/Vector\ \(2\).svg');
+}
+
+.tracinho {
+  background-color: rgb(188, 181, 181);
+  height: 1px;
+  width: 600px;
+  margin-left: 850px;
+}

@@ -1,0 +1,24 @@
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48.9205px;
+  line-height: 50px;
+  text-align: center;
+  color: #C0C3C9;
+}
+
+.imagemAnimation {
+  animation: loading 5s infinite;
+}

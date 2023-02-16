@@ -1,0 +1,33 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(235, 238, 241);
+}
+
+.header {
+  align-items: center;
+  background-image: url(../img/BG\ AZUL\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  justify-content: center;
+  margin-left: 360px;
+  margin-bottom: 50px;
+  color: aliceblue;
+}
+
+.divPaiSongs {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 460px;
+  margin-top: 20px;
+  align-items: center;
+}

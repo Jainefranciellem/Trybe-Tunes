@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Campo de pesquisa */
+.divPai {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerSearch {
+  align-items: center;
+  background-image: url(../img/BG\ AZUL.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  margin-left: 360px;
+}
+
+.inputName2 {
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 23px;
+  height: 40px;
+  text-align: center;
+  width: 400px;
+}
+
+.button2 {
+  background: #00d5e2;
+  border-radius: 23px;
+  color: aliceblue;
+  height: 40px;
+  margin-left: 20px;
+  width: 114px;
+  border: none;
+
+}
+
+/* albuns */
+.h3result {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 360px;
+}
+
+.h3Album {
+  max-width: 220px;
+  text-decoration: none;
+}
+
+.albumFound {
+  margin: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.imgAlbum {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  mix-blend-mode: normal;
+  width: 250px;
+}
+
+
+.ulLinks a {
+  color: #444955;
+  text-decoration: none;
+}
+
+.ulcontainer {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+}

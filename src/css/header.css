@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 130px;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 250px;
+}
+
+.containerHeader {
+  height: 100vh;
+  position: absolute;
+  width: 360px;
+
+  background: #ffff;
+}
+
+.searchIcon {
+  color: #444955;
+  font-family: Epilogue;
+  font-size: 30px;
+  font-style: normal;
+  height: 30px;
+  left: 100px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  list-style-type: none;
+  position: absolute;
+  text-transform: capitalize;
+  top: 335px;
+  width: 30px;
+}
+
+.search {
+  color: #444955;
+  font-family: Epilogue;
+  font-size: 30px;
+  font-style: normal;
+  height: 16px;
+  left: 150px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  list-style-type: none;
+  position: absolute;
+  text-transform: capitalize;
+  top: 340px;
+  width: 77px;
+}
+
+.star {
+  color: #1b1d22;
+  font-family: Epilogue;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: 30px;
+  left: 100px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  list-style-type: none;
+  position: absolute;
+  text-transform: capitalize;
+  top: 450px;
+  width: 30px;
+}
+
+.favorite {
+  color: #444955;
+  font-family: Epilogue;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  left: 150px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  list-style-type: none;
+  position: absolute;
+  text-transform: capitalize;
+  top: 460px;
+  width: 75px;
+}
+
+.userIcon {
+  color: #444955;
+  font-family: Epilogue;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  list-style-type: none;
+  position: absolute;
+  text-transform: capitalize;
+  top: 577px;
+}
+
+
+.profile {
+  color: #444955;
+  font-family: Epilogue;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  left: 150px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  list-style-type: none;
+  position: absolute;
+  text-transform: capitalize;
+  top: 580px;
+}
+
+.name {
+  color: #444955;
+  font-family: Epilogue;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: 16px;
+  left: 50%;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  position: absolute;
+  text-decoration: none;
+  text-transform: capitalize;
+  top: 90%;
+  width: 83px;
+}
+
+.image {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 80px;
+  top: 850px;
+
+  background: url(../img/eu.png);
+  background-size: cover;
+  border-radius: 60px;
+}
+
+

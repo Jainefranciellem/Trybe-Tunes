@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(../img/BG\ AZUL.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.divForm {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 26px rgba(68, 73, 85, 0.2);
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: 135px;
+  width: 750px;
+}
+
+.inputName {
+  border: 1px solid #003be5;
+  border-radius: 100px;
+  box-sizing: border-box;
+  height: 40px;
+  left: 170px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 400px;
+}
+
+.button {
+  align-items: center;
+  background: #003be5;
+  border-radius: 100px;
+  cursor: pointer;
+  height: 40px;
+  left: 170px;
+  margin: auto;
+  position: absolute;
+  top: 350px;
+  width: 400px;
+  color: #fff;
+  font-size: larger
+}
